@@ -11,7 +11,10 @@ Email Me 👉 ✉️ **yeshmhaling0022@gmail.com** For Collaboration/Project or 
 - 📫 **How to reach me:** yeshmhaling0022@gmail.com
 - 😄 **Pronouns:** yash
 - ⚡ **Fun fact:** I Love Tech and Tech Love Me
-- 
+-
+
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=Yash151005&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/Yashpakale.swami) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/yash-pakale-12a63a257) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:yeshmhaling0022@gmail.com) 
@@ -28,8 +31,6 @@ Email Me 👉 ✉️ **yeshmhaling0022@gmail.com** For Collaboration/Project or 
 ![](https://nirzak-streak-stats.vercel.app/?user=Yash151005&theme=dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Yash151005&theme=dark&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Yash151005&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
