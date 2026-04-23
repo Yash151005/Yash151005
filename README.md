@@ -1,14 +1,14 @@
 # 💫 Hi 👋, I'm Yash Pakale 
 **A passionate software Engineer || AI&ML Engineer || DATA Analyst **
 
-Email Me 👉 ✉️ **yeshmhaling0022@gmail.com** For Collaboration/Project or Anything Else. 😊😊
+Email Me 👉 ✉️ **yashpakale99@gmail.com** For Collaboration/Project or Anything Else. 😊😊
 
 - 🔭 **I’m currently working on:** An machine learning project 
 - 🌱 **I’m currently learning:** Machine learning 
 - 👯 **I’m looking to collaborate on:** 
 - 🤔 **I’m looking for help with:**
 - 💬 **Ask me about:** Collaboration, Tech Support
-- 📫 **How to reach me:** yeshmhaling0022@gmail.com
+- 📫 **How to reach me:** yashpakale99@gmail.com
 - 😄 **Pronouns:** yash
 - ⚡ **Fun fact:** I Love Tech and Tech Love Me
 -
