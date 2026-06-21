@@ -7,7 +7,6 @@ Email Me 👉 ✉️ **yashpakale99@gmail.com** For Collaboration/Project or Any
 - 📫 **How to reach me:** yashpakale99@gmail.com
 - 😄 **Pronouns:** yash
 - ⚡ **Fun fact:** I Love Tech and Tech Love Me
--
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Yash151005&theme=radical&no-frame=false&no-bg=true&margin-w=4)
