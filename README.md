@@ -189,11 +189,6 @@ Email Me 👉 ✉️ **yashpakale99@gmail.com** For Collaboration/Project or Any
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
 </div>
 
-### 🔝 Top Contributed Repo
-<div align="center">
-<img src="https://github-contributor-stats.vercel.app/api?username=Yash151005&limit=5&theme=dark&combine_all_yearly_contributions=true" />
-</div>
-
 ---
 <div align="center">
 <a href="https://visitcount.itsvg.in"><img src="https://visitcount.itsvg.in/api?id=Yash151005&icon=0&color=0" /></a>
