@@ -9,16 +9,20 @@ Email Me 👉 ✉️ **yashpakale99@gmail.com** For Collaboration/Project or Any
 - ⚡ **Fun fact:** I Love Tech and Tech Love Me
 
 ## 🏆 GitHub Trophies
-<img src="https://github-profile-trophy.vercel.app/?username=Yash151005&theme=radical&no-frame=false&no-bg=true&margin-w=4" />
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=Yash151005&theme=radical&no-frame=false&no-bg=true&margin-w=4&column=4&row=2" alt="trophies" />
+</div>
 
 ## 🌐 Socials:
-<a href="https://instagram.com/Yashpakale.swami"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" /></a> <a href="https://linkedin.com/in/yash-pakale-12a63a257"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" /></a> <a href="mailto:yashpakale99@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" /></a>
+<a href="https://instagram.com/Yashpakale.swami"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" /></a>&nbsp;<a href="https://linkedin.com/in/yash-pakale-12a63a257"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" /></a>&nbsp;<a href="mailto:yashpakale99@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" /></a>
 
 <div align="center">
   <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
 </div>
 
 ## 💻 Tech Stack:
+<div align="center">
+
 
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
@@ -161,19 +165,28 @@ Email Me 👉 ✉️ **yashpakale99@gmail.com** For Collaboration/Project or Any
 
 
 
+</div>
+
 # 📊 GitHub Stats:
+<div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=Yash151005&theme=dark&hide_border=true&include_all_commits=true&count_private=false" /><br/>
 <img src="https://nirzak-streak-stats.vercel.app/?user=Yash151005&theme=dark&hide_border=true" /><br/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yash151005&theme=dark&hide_border=true&include_all_commits=true&count_private=false&layout=compact" />
+</div>
 
 ### ✍️ Random Dev Quote
+<div align="center">
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
+</div>
 
 ### 🔝 Top Contributed Repo
+<div align="center">
 <img src="https://github-contributor-stats.vercel.app/api?username=Yash151005&limit=5&theme=dark&combine_all_yearly_contributions=true" />
+</div>
 
 ---
-
+<div align="center">
 <a href="https://visitcount.itsvg.in"><img src="https://visitcount.itsvg.in/api?id=Yash151005&icon=0&color=0" /></a>
+</div>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
