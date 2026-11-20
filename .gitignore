@@ -1,0 +1,6 @@
+# local dev kit: not part of the deployed profile
+__pycache__/
+preview/
+node_modules/
+.env
+*.tmp

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="76" viewBox="0 0 320 76" font-family="'JetBrains Mono','Cascadia Code',Consolas,'Courier New',monospace" >
+
+<defs>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="2.4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="40"/>
+  </filter>
+  <linearGradient id="panelG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0e1a35"/><stop offset="1" stop-color="#050a18"/>
+  </linearGradient>
+  <linearGradient id="edgeG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#1f6feb"/><stop offset=".55" stop-color="#2dd4bf"/><stop offset="1" stop-color="#fbbf24"/>
+  </linearGradient>
+  <linearGradient id="scanG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2dd4bf" stop-opacity="0"/>
+    <stop offset="1" stop-color="#2dd4bf" stop-opacity="0.45"/>
+  </linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#1d2b4f" stroke-width="0.6" opacity="0.55"/>
+  </pattern>
+</defs>
+<defs>
+  <clipPath id="cc"><rect x="1" y="1" width="318" height="74" rx="14"/></clipPath>
+  <linearGradient id="shG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".10"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<style>
+  .sh{animation:sh 4.2s ease-in-out infinite}
+  @keyframes sh{0%{transform:translateX(-140px)}60%,100%{transform:translateX(360px)}}
+  .ring{transform-box:fill-box;transform-origin:center;animation:rg 2.6s ease-out infinite}
+  @keyframes rg{0%{opacity:.7;transform:scale(1)}100%{opacity:0;transform:scale(1.35)}}
+  .ar{animation:ar 1.8s ease-in-out infinite}
+  @keyframes ar{0%,100%{transform:translate(0,0)}50%{transform:translate(3px,-3px)}}
+</style>
+<g clip-path="url(#cc)">
+  <rect width="320" height="76" fill="url(#panelG)"/>
+  <rect width="320" height="76" fill="url(#grid)" opacity="0.5"/>
+  <rect x="0" y="0" width="5" height="76" fill="#1f6feb"/>
+  <rect class="sh" x="0" y="0" width="120" height="76" fill="url(#shG)"/>
+</g>
+<rect x="1" y="1" width="318" height="74" rx="14" fill="none" stroke="#1f6feb" stroke-opacity="0.85" stroke-width="1.4"/>
+<rect class="ring" x="20" y="16" width="44" height="44" rx="11" fill="none" stroke="#1f6feb"/>
+<rect x="20" y="16" width="44" height="44" rx="11" fill="#1f6feb"/>
+<g transform="translate(30 26) scale(1)"><circle cx="12" cy="12" r="9" fill="none" stroke="#fff" stroke-width="1.7"/><ellipse cx="12" cy="12" rx="4" ry="9" fill="none" stroke="#fff" stroke-width="1.5"/><path d="M3 12h18M5 7.5h14M5 16.5h14" stroke="#fff" stroke-width="1.3"/></g>
+<text x="80" y="34" font-size="11" letter-spacing="2.4" fill="#8b9bc2">UPLINK // PORTFOLIO</text>
+<text x="80" y="56" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="14.5" font-weight="600" fill="#e8eefc">yash151005.github.io</text>
+<g class="ar"><text x="296" y="46" text-anchor="end" font-size="20" fill="#1f6feb">↗</text></g>
+</svg>

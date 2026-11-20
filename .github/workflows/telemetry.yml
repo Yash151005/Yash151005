@@ -1,0 +1,49 @@
+name: render telemetry
+
+# Re-renders the data-driven profile art from the GitHub API:
+#   assets/telemetry.svg · assets/snake.svg · assets/trophies.svg
+# If the render fails, nothing is committed: the README keeps showing the last
+# good files, so the profile never shows a broken widget.
+on:
+  schedule:
+    - cron: "17 */12 * * *" # twice a day
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "tools/**"
+      - ".github/workflows/telemetry.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: telemetry
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      # stdlib-only renderer: no pip, no third-party widgets
+      - name: render telemetry, snake and trophies
+        run: python3 tools/render_telemetry.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: commit refreshed assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/telemetry.svg assets/snake.svg assets/trophies.svg
+          if git diff --cached --quiet; then
+            echo "no changes since last render"
+          else
+            git commit -m "telemetry: auto-render [skip ci]"
+            git pull --rebase --autostash
+            git push
+          fi
