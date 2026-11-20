@@ -7,7 +7,7 @@ Builds the STATIC profile art in assets/ (run once, or after editing text here):
   header-banner.svg   animated name banner with self-hosted typing roles
   identity.svg        identity.sys holographic ID card (avatar embedded)
   system.svg          system-overview terminal
-  uplink-*.svg        contact chips (linkedin, email, portfolio, github, instagram)
+  contact-*.svg       contact chips (linkedin, email, portfolio, github, instagram)
   divider.svg         section divider
   footer.svg          footer wave
 
@@ -290,7 +290,7 @@ def system():
     write_atomic("system.svg", svg)
 
 
-# ====================================================================== uplink
+# ===================================================================== contact
 GITHUB_D = ("M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 "
             "0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7"
             "c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998"
@@ -341,15 +341,15 @@ def chip(key, label, handle, brand):
 <text x="80" y="56" font-family="{SANS}" font-size="{16 if len(handle) <= 18 else 14.5}" font-weight="600" fill="{TXT}">{esc(handle)}</text>
 <g class="ar"><text x="{w - 24}" y="46" text-anchor="end" font-size="20" fill="{brand}">↗</text></g>
 </svg>"""
-    write_atomic(f"uplink-{key}.svg", svg)
+    write_atomic(f"contact-{key}.svg", svg)
 
 
-def uplinks():
-    chip("linkedin", "UPLINK // LINKEDIN", "Yash Pakale", "#0A66C2")
-    chip("email", "UPLINK // EMAIL", "yashpakale99@gmail.com", "#D14836")
-    chip("portfolio", "UPLINK // PORTFOLIO", "yash151005.github.io", BLUE2)
-    chip("github", "UPLINK // GITHUB", "@Yash151005", "#6e7681")
-    chip("instagram", "UPLINK // INSTAGRAM", "@Yashpakale.swami", "#E4405F")
+def contacts():
+    chip("linkedin", "LINKEDIN", "Yash Pakale", "#0A66C2")
+    chip("email", "EMAIL", "yashpakale99@gmail.com", "#D14836")
+    chip("portfolio", "PORTFOLIO", "yash151005.github.io", BLUE2)
+    chip("github", "GITHUB", "@Yash151005", "#6e7681")
+    chip("instagram", "INSTAGRAM", "@Yashpakale.swami", "#E4405F")
 
 
 # ============================================================ divider + footer
@@ -407,6 +407,6 @@ if __name__ == "__main__":
     banner()
     identity()
     system()
-    uplinks()
+    contacts()
     divider()
     footer()

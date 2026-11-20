@@ -218,38 +218,265 @@ Insider-threat and privileged-access monitoring built for Bank of Maharashtra (F
 </tr>
 </table>
 
-<details>
-<summary><b>🗂 ALL_DEPLOYMENTS</b> (click to expand)</summary>
-<br/>
+### 🧩 More builds
 
-| Project | What it does | Area |
-|---|---|---|
-| **[LifeOS](https://github.com/Yash151005/LifeOS)** | AI action agent: plan → approve → execute → verify, backed by real SQLite tools | 🤖 AI |
-| **[TestGenie AI](https://github.com/Yash151005/TestGenie-AI)** | Generates QA test cases from requirements using several LLM providers | 🤖 AI |
-| **[MandatePay AI](https://github.com/Yash151005/MandatePay-AI)** | Agentic commerce with spending limits, human approval and a hash-chained audit log | 🤖 AI |
-| **[Dead Reckoning](https://github.com/Yash151005/Dead-Reckoning)** | Infers full specs for undocumented industrial parts from physics and vision | 🤖 AI |
-| **[KaamSetu AI](https://github.com/Yash151005/KaamSetu)** | Multilingual, voice-first safety net for informal and migrant workers | 🤖 AI |
-| **[Nagrik Sahayak](https://github.com/Yash151005/Nagrik-Sahayak)** | Multilingual GenAI civic companion for government services | 🤖 AI |
-| **[EngageAI](https://github.com/Yash151005/EngageAI)** | Detects customer life events from transactions and sends personalized nudges | 🤖 AI |
-| **[SentinelAI](https://github.com/Yash151005/SentinelAI)** | Grooming-risk detection and evidence correlation (Hac'KP 2026) | 🤖 AI |
-| **[MindMirror AI](https://github.com/Yash151005/MindMirror-AI)** | Stress detection from face (OpenCV) and voice (librosa MFCC) | 📊 DS |
-| **[GraminPulse](https://github.com/Yash151005/GraminPulse)** | Cash-flow forecasting and repayment-risk scoring for rural micro-enterprises | 📊 DS |
-| **[StockPulse AI](https://github.com/Yash151005/StockPulse-AI)** | Snowflake-native stock-health intelligence for hospitals and NGOs | 📊 DS |
-| **[KSP Analytics](https://github.com/Yash151005/ksp-analytics)** | Crime analytics with hotspot maps, network graphs and a local LLM | 📊 DS |
-| **[Redrob Candidate Ranker](https://github.com/Yash151005/redrob-candidate-ranker)** | Ranks the top 100 candidates out of 100,000 for a role | 📊 DS |
-| **[VeriESG](https://github.com/Yash151005/VeriESG)** | ESG compliance checks with smart contracts and ML anomaly detection | 📊 DS |
-| **[RailGuard](https://github.com/Yash151005/RailGuard)** | Real-time railway anomaly detection with a rules + Llama 3 hybrid | 💻 SW |
-| **[VisionGuard AI](https://github.com/Yash151005/VisionGuard-AI)** | Explainable OpenCV visual-inspection agent for images and video | 💻 SW |
-| **[FocusGuard](https://github.com/Yash151005/Student-Attention-Detection)** | Flask + MediaPipe student attention monitoring from a webcam | 💻 SW |
-| **[FaceChain](https://github.com/Yash151005/FaceChain)** | Face detection + reverse search, with an immutable on-chain record | 💻 SW |
-| **[Noted.](https://github.com/Yash151005/Symptomline)** | Turns symptom logs into doctor-ready timelines and PDF reports | 💻 SW |
-| **[CareCircle](https://github.com/Yash151005/CareCircle)** | Shared medication and appointment manager for elderly care | 💻 SW |
-| **[SteadyStep](https://github.com/Yash151005/SteadyStep)** | Adaptive, no-blame behavior-change coach | 💻 SW |
-| **[CLIMASCOPE](https://github.com/Yash151005/CLIMASCOPE)** | Checks whether the evidence actually supports a climate decision | 💻 SW |
+<sub>Every project below is public on GitHub. 36 more, grouped by area.</sub>
 
-➡️ All repositories: **[github.com/Yash151005?tab=repositories](https://github.com/Yash151005?tab=repositories)**
+#### 🤖 AI & Agents
 
-</details>
+<table>
+<tr>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/LifeOS">LifeOS</a></b><br/>
+<sub>AI action agent: plan → approve → execute → verify, backed by real SQLite tools.</sub><br/>
+<code>Python</code> <code>Agents</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/TestGenie-AI">TestGenie AI</a></b><br/>
+<sub>Generates QA test cases from requirements using several LLM providers.</sub><br/>
+<code>Python</code> <code>LLM</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/MandatePay-AI">MandatePay AI</a></b><br/>
+<sub>Agentic commerce with spending limits, human approval and a hash-chained audit log.</sub><br/>
+<code>Python</code> <code>Agentic AI</code>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/Dead-Reckoning">Dead Reckoning</a></b><br/>
+<sub>Infers full specs for undocumented industrial parts from physics and vision.</sub><br/>
+<code>Python</code> <code>Vision</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/KaamSetu">KaamSetu AI</a></b><br/>
+<sub>Multilingual, voice-first safety net for informal and migrant workers.</sub><br/>
+<code>JavaScript</code> <code>Voice AI</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/Nagrik-Sahayak">Nagrik Sahayak</a></b><br/>
+<sub>Multilingual GenAI civic companion for government services.</sub><br/>
+<code>Python</code> <code>GenAI</code>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/EngageAI">EngageAI</a></b><br/>
+<sub>Detects customer life events from transactions and sends personalized nudges.</sub><br/>
+<code>Python</code> <code>ML</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/SentinelAI">SentinelAI</a></b><br/>
+<sub>Grooming-risk detection and evidence correlation (Hac'KP 2026).</sub><br/>
+<code>Python</code> <code>NLP</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/DrugGpt">DrugGPT</a></b><br/>
+<sub>Explainable drug-repurposing engine with a full-stack React interface.</sub><br/>
+<code>Python</code> <code>React</code>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/PAAL">PAAL</a></b><br/>
+<sub>Public AI Access Layer: an AI intermediary between citizens and government services.</sub><br/>
+<code>AI Platform</code> <code>GovTech</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/ksp-ai">KSP Crime Intelligence</a></b><br/>
+<sub>Local conversational AI over a police crime database, powered by Ollama + Llama 3 (KSP Datathon 2026).</sub><br/>
+<code>Ollama</code> <code>Llama 3</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/dataforge-ai">DataForge AI</a></b><br/>
+<sub>AI data-preparation pipeline: raw data in, model-ready data out.</sub><br/>
+<code>Python</code> <code>Streamlit</code>
+</td>
+</tr>
+</table>
+
+#### 📊 Data Science & Analytics
+
+<table>
+<tr>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/MindMirror-AI">MindMirror AI</a></b><br/>
+<sub>Stress detection from face (OpenCV) and voice (librosa MFCC).</sub><br/>
+<code>OpenCV</code> <code>Audio ML</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/GraminPulse">GraminPulse</a></b><br/>
+<sub>Cash-flow forecasting and repayment-risk scoring for rural micro-enterprises.</sub><br/>
+<code>Python</code> <code>Forecasting</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/StockPulse-AI">StockPulse AI</a></b><br/>
+<sub>Snowflake-native stock-health intelligence for hospitals and NGOs.</sub><br/>
+<code>Snowflake</code> <code>Python</code>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/ksp-analytics">KSP Analytics</a></b><br/>
+<sub>Crime analytics with hotspot maps, network graphs and a local LLM.</sub><br/>
+<code>Python</code> <code>Geospatial</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/redrob-candidate-ranker">Redrob Candidate Ranker</a></b><br/>
+<sub>Ranks the top 100 candidates out of 100,000 for a role.</sub><br/>
+<code>Python</code> <code>Ranking</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/VeriESG">VeriESG</a></b><br/>
+<sub>ESG compliance checks with smart contracts and ML anomaly detection.</sub><br/>
+<code>Python</code> <code>Blockchain</code>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/Indradhanu">Indradhanu</a></b><br/>
+<sub>Climate-resilience platform linking health, marine and circular-economy data with LSTM forecasting.</sub><br/>
+<code>LSTM</code> <code>Climate</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/GreenChain">GreenChain</a></b><br/>
+<sub>Tracks fleet emissions against India's baseline, grades drivers and earns carbon credits.</sub><br/>
+<code>TypeScript</code> <code>Gemini</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/Real-Time-Route-Safety-Scoring-System-for-Pedestrians-or-Vehicles">SafeRoute.AI</a></b><br/>
+<sub>Real-time safety scoring and safer route suggestions for pedestrians and drivers.</sub><br/>
+<code>TypeScript</code> <code>Maps</code>
+</td>
+</tr>
+</table>
+
+#### 💻 Software, Web & Computer Vision
+
+<table>
+<tr>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/RailGuard">RailGuard</a></b><br/>
+<sub>Real-time railway anomaly detection with a rules + Llama 3 hybrid.</sub><br/>
+<code>Python</code> <code>Llama 3</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/VisionGuard-AI">VisionGuard AI</a></b><br/>
+<sub>Explainable OpenCV visual-inspection agent for images and video.</sub><br/>
+<code>Python</code> <code>OpenCV</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/Student-Attention-Detection">FocusGuard</a></b><br/>
+<sub>Flask + MediaPipe student attention monitoring from a webcam.</sub><br/>
+<code>Flask</code> <code>MediaPipe</code>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/FaceChain">FaceChain</a></b><br/>
+<sub>Face detection + reverse search, with an immutable on-chain record.</sub><br/>
+<code>Python</code> <code>Blockchain</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/NHAI">Offline Face Auth</a></b><br/>
+<sub>Offline facial recognition and liveness detection for field staff (NHAI hackathon).</sub><br/>
+<code>Kotlin</code> <code>On-device ML</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/smart-road-crack-detectction-web-app">Road Crack Detection</a></b><br/>
+<sub>Flask web app that detects and catalogues road cracks from uploaded images.</sub><br/>
+<code>Flask</code> <code>CV</code>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/PROVENANCEX">ProvenanceX</a></b><br/>
+<sub>Registers and verifies the source and edit history of photos, videos and files.</sub><br/>
+<code>JavaScript</code> <code>Provenance</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/RoadBid">RoadBid</a></b><br/>
+<sub>Transparent road-repair tenders: officers post, contractors bid, citizens verify.</sub><br/>
+<code>JavaScript</code> <code>Maps</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/Symptomline">Noted.</a></b><br/>
+<sub>Turns symptom logs into doctor-ready timelines and PDF reports.</sub><br/>
+<code>JavaScript</code> <code>Health</code>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/CareCircle">CareCircle</a></b><br/>
+<sub>Shared medication and appointment manager for elderly care.</sub><br/>
+<code>Python</code> <code>Health</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/SteadyStep">SteadyStep</a></b><br/>
+<sub>Adaptive, no-blame behavior-change coach.</sub><br/>
+<code>Python</code> <code>Wellness</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/CLIMASCOPE">CLIMASCOPE</a></b><br/>
+<sub>Checks whether the evidence actually supports a climate decision.</sub><br/>
+<code>TypeScript</code> <code>Climate</code>
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/TeamSync">TeamSync</a></b><br/>
+<sub>Mobile-first teammate discovery and matching for hackathons.</sub><br/>
+<code>JavaScript</code> <code>Web</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/Freelance-bidding-platform">Freelance Bidding</a></b><br/>
+<sub>Freelance marketplace with a weighted auction algorithm for picking the best bid.</sub><br/>
+<code>JavaScript</code> <code>Algorithms</code>
+</td>
+<td width="33%" valign="top">
+<b><a href="https://github.com/Yash151005/ai-art-generator">AI Art Generator</a></b><br/>
+<sub>Text-to-image art generator supporting several diffusion models.</sub><br/>
+<code>TypeScript</code> <code>GenAI</code>
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<a href="https://github.com/Yash151005?tab=repositories"><img src="https://img.shields.io/badge/BROWSE_ALL_REPOSITORIES-0a1328?style=for-the-badge&logo=github&logoColor=2dd4bf" alt="Browse all repositories"/></a>
+
+</div>
+
+<img width="100%" src="assets/divider.svg" alt=""/>
+
+## 📚 IEEE_PUBLICATIONS
+
+<sub>Peer-reviewed research published and indexed in IEEE Xplore.</sub>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+👁️ <img src="https://img.shields.io/badge/Published_in-IEEE_Xplore-00629B?style=flat-square&logo=ieee&logoColor=white" alt="Published in IEEE Xplore"/>
+
+**[Student Attention Detection System](https://ieeexplore.ieee.org/document/11735961)**<br/>
+Real-Time Classroom Engagement Monitoring Using Computer Vision and Deep Learning.
+
+[**Read on IEEE Xplore ↗**](https://ieeexplore.ieee.org/document/11735961)
+
+</td>
+<td width="50%" valign="top">
+
+🧠 <img src="https://img.shields.io/badge/Published_in-IEEE_Xplore-00629B?style=flat-square&logo=ieee&logoColor=white" alt="Published in IEEE Xplore"/>
+
+**[Brain Frequency Analysis Concentration Level Prediction](https://ieeexplore.ieee.org/document/11747711/)**<br/>
+A research study exploring brain-frequency signals for concentration-level prediction.
+
+[**Read on IEEE Xplore ↗**](https://ieeexplore.ieee.org/document/11747711/)
+
+</td>
+</tr>
+</table>
 
 <img width="100%" src="assets/divider.svg" alt=""/>
 
@@ -278,17 +505,17 @@ committed back twice a day. If a render fails, the last good image stays up.*
 
 <img width="100%" src="assets/divider.svg" alt=""/>
 
-## ⇄ uplink
+## 🤝 CONNECT
 
 <div align="center">
 
-<a href="https://linkedin.com/in/yash-pakale-12a63a257"><img width="300" src="assets/uplink-linkedin.svg" alt="LinkedIn: Yash Pakale"/></a>
-<a href="mailto:yashpakale99@gmail.com"><img width="300" src="assets/uplink-email.svg" alt="Email: yashpakale99@gmail.com"/></a>
+<a href="https://linkedin.com/in/yash-pakale-12a63a257"><img width="300" src="assets/contact-linkedin.svg" alt="LinkedIn: Yash Pakale"/></a>
+<a href="mailto:yashpakale99@gmail.com"><img width="300" src="assets/contact-email.svg" alt="Email: yashpakale99@gmail.com"/></a>
 <br/>
-<a href="https://yash151005.github.io/"><img width="300" src="assets/uplink-portfolio.svg" alt="Portfolio: yash151005.github.io"/></a>
-<a href="https://github.com/Yash151005"><img width="300" src="assets/uplink-github.svg" alt="GitHub: @Yash151005"/></a>
+<a href="https://yash151005.github.io/"><img width="300" src="assets/contact-portfolio.svg" alt="Portfolio: yash151005.github.io"/></a>
+<a href="https://github.com/Yash151005"><img width="300" src="assets/contact-github.svg" alt="GitHub: @Yash151005"/></a>
 <br/>
-<a href="https://instagram.com/Yashpakale.swami"><img width="300" src="assets/uplink-instagram.svg" alt="Instagram: @Yashpakale.swami"/></a>
+<a href="https://instagram.com/Yashpakale.swami"><img width="300" src="assets/contact-instagram.svg" alt="Instagram: @Yashpakale.swami"/></a>
 
 <br/><br/>
 
