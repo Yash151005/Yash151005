@@ -36,18 +36,18 @@
 <text x="912" y="38.5" text-anchor="end" font-size="10" letter-spacing="1.8" fill="#8b9bc2">TIERS  S · A · B · C  ·  SELF-COMPUTED</text>
 <line x1="22" y1="54" x2="918" y2="54" stroke="#1d2b4f"/>
 
-<defs><linearGradient id="tg0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1f5f9"/><stop offset="1" stop-color="#cbd5e1"/></linearGradient></defs>
+<defs><linearGradient id="tg0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbbf24"/><stop offset="1" stop-color="#d97706"/></linearGradient></defs>
 <rect x="25.0" y="70" width="102.5" height="160" rx="12" fill="#0e1a35" stroke="#1d2b4f"/>
 <g transform="translate(76.2 90)" opacity="1"><g class="cup" style="animation-delay:-0.0s">
-  <path d="M-12 4 C-26 4 -26 22 -9 24 M12 4 C26 4 26 22 9 24" fill="none" stroke="#cbd5e1" stroke-width="3"/>
-  <path d="M-18 0 H18 V8 C18 26 8 34 0 34 C-8 34 -18 26 -18 8 Z" fill="url(#tg0)" stroke="#cbd5e1" stroke-width="1"/>
-  <rect x="-3" y="34" width="6" height="9" fill="#cbd5e1"/>
-  <rect x="-14" y="43" width="28" height="6" rx="2" fill="url(#tg0)" stroke="#cbd5e1" stroke-width="1"/>
-  <text x="0" y="22" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="800" fill="#050a18">B</text>
+  <path d="M-12 4 C-26 4 -26 22 -9 24 M12 4 C26 4 26 22 9 24" fill="none" stroke="#d97706" stroke-width="3"/>
+  <path d="M-18 0 H18 V8 C18 26 8 34 0 34 C-8 34 -18 26 -18 8 Z" fill="url(#tg0)" stroke="#d97706" stroke-width="1"/>
+  <rect x="-3" y="34" width="6" height="9" fill="#d97706"/>
+  <rect x="-14" y="43" width="28" height="6" rx="2" fill="url(#tg0)" stroke="#d97706" stroke-width="1"/>
+  <text x="0" y="22" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="800" fill="#050a18">C</text>
 </g></g>
-<text x="76.2" y="166" text-anchor="middle" font-size="10" letter-spacing="1.2" fill="#8b9bc2">CONTRIBS</text>
-<text x="76.2" y="190" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="700" fill="#e8eefc">224</text>
-<text x="76.2" y="212" text-anchor="middle" font-size="9" fill="#4b5a80">next: 500</text>
+<text x="76.2" y="166" text-anchor="middle" font-size="10" letter-spacing="1.2" fill="#8b9bc2">COMMITS</text>
+<text x="76.2" y="190" text-anchor="middle" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="700" fill="#e8eefc">136</text>
+<text x="76.2" y="212" text-anchor="middle" font-size="9" fill="#4b5a80">next: 200</text>
 <defs><linearGradient id="tg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fcd34d"/><stop offset="1" stop-color="#fbbf24"/></linearGradient></defs>
 <rect x="137.5" y="70" width="102.5" height="160" rx="12" fill="#0e1a35" stroke="#1d2b4f"/>
 <g transform="translate(188.8 90)" opacity="1"><g class="cup" style="animation-delay:-0.4s">
