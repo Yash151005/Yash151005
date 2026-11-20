@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="340" height="172" viewBox="0 0 340 172" font-family="'JetBrains Mono','Cascadia Code',Consolas,'Courier New',monospace" >
+
+<defs>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="2.4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="40"/>
+  </filter>
+  <linearGradient id="panelG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0e1a35"/><stop offset="1" stop-color="#050a18"/>
+  </linearGradient>
+  <linearGradient id="edgeG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#1f6feb"/><stop offset=".55" stop-color="#2dd4bf"/><stop offset="1" stop-color="#fbbf24"/>
+  </linearGradient>
+  <linearGradient id="scanG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2dd4bf" stop-opacity="0"/>
+    <stop offset="1" stop-color="#2dd4bf" stop-opacity="0.45"/>
+  </linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#1d2b4f" stroke-width="0.6" opacity="0.55"/>
+  </pattern>
+</defs>
+
+<defs>
+  <clipPath id="cf"><rect x="1" y="1" width="338" height="170" rx="12"/></clipPath>
+  <linearGradient id="shG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="haloG" cx="1" cy="0" r="0.9">
+    <stop offset="0" stop-color="#fbbf24" stop-opacity="0.22"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<style>
+  .sh{animation:sh 6s ease-in-out infinite;animation-delay:2.50s}
+  @keyframes sh{0%{transform:translateX(-170px)}55%,100%{transform:translateX(400px)}}
+  .trace{animation:tr 7s linear infinite;animation-delay:-5.00s}
+  @keyframes tr{from{stroke-dashoffset:1024}to{stroke-dashoffset:0}}
+  .in{animation:in .8s cubic-bezier(.2,.7,.2,1) both}
+  @keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .pulse{animation:pl 1.8s ease-in-out infinite}
+  @keyframes pl{0%,100%{opacity:.35}50%{opacity:1}}
+  .ring{transform-box:fill-box;transform-origin:center;animation:rg 2.2s ease-out infinite}
+  @keyframes rg{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(3)}}
+  .ar{animation:ar 1.6s ease-in-out infinite}
+  @keyframes ar{0%,100%{transform:translate(0,0)}50%{transform:translate(3px,-3px)}}
+</style>
+<g clip-path="url(#cf)">
+  <rect width="340" height="172" fill="url(#panelG)"/>
+  <rect width="340" height="172" fill="url(#grid)" opacity="0.45"/>
+  <rect width="340" height="172" fill="url(#haloG)"/>
+  <rect class="sh" x="0" y="0" width="113" height="172" fill="url(#shG)"/>
+</g>
+<rect x="1" y="1" width="338" height="170" rx="12" fill="none" stroke="#1d2b4f" stroke-width="1.2"/>
+<rect class="trace" x="1" y="1" width="338" height="170" rx="12" fill="none" stroke="#fbbf24" stroke-width="1.8"
+      stroke-dasharray="90 934" stroke-linecap="round" filter="url(#glow)"/>
+<circle cx="24" cy="24" r="3.5" fill="#fbbf24"/><circle cx="24" cy="24" r="3.5" fill="none" stroke="#fbbf24" class="ring" style="animation-delay:-0.30s"/>
+<text x="34" y="28" font-size="9.5" letter-spacing="2" fill="#fbbf24">SOFTWARE · CV</text>
+<g class="ar"><text x="322" y="30" text-anchor="end" font-size="15" fill="#fbbf24">↗</text></g>
+<text x="19" y="58" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="700" fill="#e8eefc" class="in">FocusGuard</text>
+<g class="in" style="animation-delay:.2s"><text x="20" y="82" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#b8c4e0">Flask + MediaPipe student attention</text><text x="20" y="99" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#b8c4e0">monitoring from a webcam.</text></g>
+<g class="in" style="animation-delay:.4s"><rect x="20.0" y="136" width="49.0" height="20" rx="10.0" fill="#fbbf24" fill-opacity="0.10" stroke="#fbbf24" stroke-opacity="0.55"/><text x="44.5" y="149.6" text-anchor="middle" font-size="10" fill="#e8eefc">Flask</text><rect x="77.0" y="136" width="73.8" height="20" rx="10.0" fill="#fbbf24" fill-opacity="0.10" stroke="#fbbf24" stroke-opacity="0.55"/><text x="113.9" y="149.6" text-anchor="middle" font-size="10" fill="#e8eefc">MediaPipe</text></g>
+</svg>

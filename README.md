@@ -5,6 +5,7 @@
      Every custom image below lives in assets/ and is served by GitHub
      itself, so there are no third-party stat widgets that can fail.
        static art   → python tools/build_assets.py
+       cards        → python tools/build_cards.py  (projects + IEEE papers)
        live data    → .github/workflows/telemetry.yml (twice a day)
      ═══════════════════════════════════════════════════════════════════ -->
 
@@ -95,351 +96,103 @@
 
 ## 🚀 FEATURED_BUILDS
 
-### 🤖 AI Engineering: agents, LLMs, RAG
+<img width="100%" src="assets/cards/strip-feat-ai.svg" alt="AI ENGINEERING: agents · LLMs · RAG"/>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<p align="center">
+<a href="https://github.com/Yash151005/docmind"><img width="49%" src="assets/cards/feat-docmind.svg" alt="DocMind: Document-to-action engine: turns contracts, reports and notes into action items, red flags and key decisions."/></a>
+<a href="https://github.com/Yash151005/ComplyGenie-AI"><img width="49%" src="assets/cards/feat-complygenie.svg" alt="ComplyGenie AI: RAG recommendation engine that finds the BIS standards that apply to an Indian small business's products."/></a>
+<br/>
+<a href="https://github.com/Yash151005/Synapse"><img width="49%" src="assets/cards/feat-synapse.svg" alt="Synapse: Voice-first agent marketplace: splits a goal, hires specialist agents in parallel, settles in USDC on Stellar."/></a>
+<a href="https://github.com/Yash151005/PipelineSage-AI"><img width="49%" src="assets/cards/feat-pipelinesage.svg" alt="PipelineSage AI: DevSecOps assistant: triages CI/CD failures, flags risky code, suggests fixes and scores release readiness."/></a>
+</p>
 
-**[DocMind](https://github.com/Yash151005/docmind)**<br/>
-Document-to-action engine. Reads contracts, reports, resumes or meeting notes and returns prioritized action items, red flags and key decisions instead of a generic summary.
+<img width="100%" src="assets/cards/strip-feat-ds.svg" alt="DATA SCIENCE & ML: forecasting · privacy · fairness"/>
 
-`Python` `Claude` `GPT-4o` `Gemini`
+<p align="center">
+<a href="https://github.com/Yash151005/FedScore"><img width="49%" src="assets/cards/feat-fedscore.svg" alt="FedScore: Federated credit scoring on alternative data (UPI, telecom) for credit-invisible users, with no raw data shared."/></a>
+<a href="https://github.com/Yash151005/ClimaGuard-AI"><img width="49%" src="assets/cards/feat-climaguard.svg" alt="ClimaGuard AI: Hyperlocal early warning: ward-level flood, heatwave and landslide risk map with a 72-hour forecast."/></a>
+<br/>
+<a href="https://github.com/Yash151005/FairNexa"><img width="49%" src="assets/cards/feat-fairnexa.svg" alt="FairNexa: Fairness + explainability audits: probes a model's API, measures bias across groups, writes the audit report."/></a>
+<a href="https://github.com/Yash151005/GenData-Insight"><img width="49%" src="assets/cards/feat-gendata.svg" alt="GenData-Insight: Synthetic-data evaluator: KS, JS divergence, Wasserstein, autoencoder checks, ML utility and privacy scores."/></a>
+</p>
 
-</td>
-<td width="50%" valign="top">
+<img width="100%" src="assets/cards/strip-feat-sw.svg" alt="SOFTWARE & COMPUTER VISION: products · vision · web"/>
 
-**[ComplyGenie AI](https://github.com/Yash151005/ComplyGenie-AI)**<br/>
-RAG-powered recommendation engine that helps Indian small businesses find the Bureau of Indian Standards (BIS) rules that apply to their products.
+<p align="center">
+<a href="https://github.com/Yash151005/TerraVoxis"><img width="49%" src="assets/cards/feat-terravoxis.svg" alt="TerraVoxis: NASA Space Apps 2026: an Earth Information Jukebox that turns Earth-observation data into sound."/></a>
+<a href="https://github.com/Yash151005/KarigarTrust"><img width="49%" src="assets/cards/feat-karigartrust.svg" alt="KarigarTrust: Agentic two-sided gold ledger for jewellers and goldsmiths: issued, returned, wasted, settled, both verified."/></a>
+<br/>
+<a href="https://github.com/Yash151005/AutofixAI"><img width="49%" src="assets/cards/feat-autofix.svg" alt="AutoFix AI: End-to-end pipeline that detects exterior vehicle damage with YOLO and estimates the repair cost."/></a>
+<a href="https://github.com/Yash151005/SentinelIQ"><img width="49%" src="assets/cards/feat-sentineliq.svg" alt="SentinelIQ: Insider-threat monitoring for Bank of Maharashtra (Finspark 2026): hybrid ML anomalies + live risk dashboard."/></a>
+</p>
 
-`Python` `RAG` `NLP`
+<p align="center"><a href="https://yash151005.github.io/TerraVoxis/"><img src="https://img.shields.io/badge/TERRAVOXIS-LIVE_DEMO_↗-0a1328?style=for-the-badge&logo=nasa&logoColor=fbbf24&labelColor=0a1328" alt="TerraVoxis live demo"/></a></p>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<img width="100%" src="assets/cards/more-teaser.svg" alt="36 more builds: click MORE_BUILDS below to expand"/>
 
-**[Synapse](https://github.com/Yash151005/Synapse)**<br/>
-Voice-first agent marketplace. Breaks a goal into tasks, hires specialist AI agents, runs them in parallel and settles micropayments in USDC on Stellar.
+<details>
+<summary><b>🧩 MORE_BUILDS</b> · <code>36 projects</code> · <i>click to expand</i></summary>
+<br/>
 
-`TypeScript` `Multi-agent` `Stellar`
+<img width="100%" src="assets/cards/strip-more-ai.svg" alt="AI ENGINEERING"/>
 
-</td>
-<td width="50%" valign="top">
+<p align="center">
+<a href="https://github.com/Yash151005/LifeOS"><img width="32%" src="assets/cards/more-lifeos.svg" alt="LifeOS: AI action agent: plan, approve, execute, verify, backed by real SQLite tools."/></a>
+<a href="https://github.com/Yash151005/TestGenie-AI"><img width="32%" src="assets/cards/more-testgenie.svg" alt="TestGenie AI: Generates QA test cases from requirements using several LLM providers."/></a>
+<a href="https://github.com/Yash151005/MandatePay-AI"><img width="32%" src="assets/cards/more-mandatepay.svg" alt="MandatePay AI: Agentic commerce with spending limits, human approval and a hash-chained audit log."/></a>
+<br/>
+<a href="https://github.com/Yash151005/Dead-Reckoning"><img width="32%" src="assets/cards/more-deadreckoning.svg" alt="Dead Reckoning: Infers full specs for undocumented industrial parts from physics and vision."/></a>
+<a href="https://github.com/Yash151005/KaamSetu"><img width="32%" src="assets/cards/more-kaamsetu.svg" alt="KaamSetu AI: Multilingual, voice-first safety net for informal and migrant workers."/></a>
+<a href="https://github.com/Yash151005/Nagrik-Sahayak"><img width="32%" src="assets/cards/more-nagrik.svg" alt="Nagrik Sahayak: Multilingual GenAI civic companion for government services."/></a>
+<br/>
+<a href="https://github.com/Yash151005/EngageAI"><img width="32%" src="assets/cards/more-engageai.svg" alt="EngageAI: Detects customer life events from transactions and sends personalized nudges."/></a>
+<a href="https://github.com/Yash151005/SentinelAI"><img width="32%" src="assets/cards/more-sentinelai.svg" alt="SentinelAI: Grooming-risk detection and evidence correlation (Hac'KP 2026)."/></a>
+<a href="https://github.com/Yash151005/DrugGpt"><img width="32%" src="assets/cards/more-druggpt.svg" alt="DrugGPT: Explainable drug-repurposing engine with a full-stack React interface."/></a>
+<br/>
+<a href="https://github.com/Yash151005/PAAL"><img width="32%" src="assets/cards/more-paal.svg" alt="PAAL: Public AI Access Layer: an AI intermediary between citizens and government services."/></a>
+<a href="https://github.com/Yash151005/ksp-ai"><img width="32%" src="assets/cards/more-ksp-ai.svg" alt="KSP Crime Intel: Local conversational AI over a police crime database with Ollama + Llama 3 (KSP Datathon 2026)."/></a>
+<a href="https://github.com/Yash151005/dataforge-ai"><img width="32%" src="assets/cards/more-dataforge.svg" alt="DataForge AI: AI data-preparation pipeline: raw data in, model-ready data out."/></a>
+</p>
 
-**[PipelineSage AI](https://github.com/Yash151005/PipelineSage-AI)**<br/>
-DevSecOps assistant that triages CI/CD failures, flags risky source patterns, suggests fixes and summarizes release readiness.
+<img width="100%" src="assets/cards/strip-more-ds.svg" alt="DATA SCIENCE & ML"/>
 
-`Python` `LLM` `GitLab API` `Streamlit`
+<p align="center">
+<a href="https://github.com/Yash151005/MindMirror-AI"><img width="32%" src="assets/cards/more-mindmirror.svg" alt="MindMirror AI: Stress detection from face (OpenCV) and voice (librosa MFCC)."/></a>
+<a href="https://github.com/Yash151005/GraminPulse"><img width="32%" src="assets/cards/more-graminpulse.svg" alt="GraminPulse: Cash-flow forecasting and repayment-risk scoring for rural micro-enterprises."/></a>
+<a href="https://github.com/Yash151005/StockPulse-AI"><img width="32%" src="assets/cards/more-stockpulse.svg" alt="StockPulse AI: Snowflake-native stock-health intelligence for hospitals and NGOs."/></a>
+<br/>
+<a href="https://github.com/Yash151005/ksp-analytics"><img width="32%" src="assets/cards/more-ksp-analytics.svg" alt="KSP Analytics: Crime analytics with hotspot maps, network graphs and a local LLM."/></a>
+<a href="https://github.com/Yash151005/redrob-candidate-ranker"><img width="32%" src="assets/cards/more-redrob.svg" alt="Candidate Ranker: Ranks the top 100 candidates out of 100,000 for a role."/></a>
+<a href="https://github.com/Yash151005/VeriESG"><img width="32%" src="assets/cards/more-veriesg.svg" alt="VeriESG: ESG compliance checks with smart contracts and ML anomaly detection."/></a>
+<br/>
+<a href="https://github.com/Yash151005/Indradhanu"><img width="32%" src="assets/cards/more-indradhanu.svg" alt="Indradhanu: Climate resilience linking health, marine and circular-economy data with LSTM forecasts."/></a>
+<a href="https://github.com/Yash151005/GreenChain"><img width="32%" src="assets/cards/more-greenchain.svg" alt="GreenChain: Tracks fleet emissions against India's baseline, grades drivers, earns carbon credits."/></a>
+<a href="https://github.com/Yash151005/Real-Time-Route-Safety-Scoring-System-for-Pedestrians-or-Vehicles"><img width="32%" src="assets/cards/more-saferoute.svg" alt="SafeRoute.AI: Real-time safety scoring and safer route suggestions for pedestrians and drivers."/></a>
+</p>
 
-</td>
-</tr>
-</table>
+<img width="100%" src="assets/cards/strip-more-sw.svg" alt="SOFTWARE & COMPUTER VISION"/>
 
-### 📊 Data Science & Machine Learning
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**[FedScore](https://github.com/Yash151005/FedScore)**<br/>
-Privacy-preserving federated learning for credit scoring across institutions. Uses alternative data such as UPI activity and telecom billing to reach credit-invisible users, without sharing raw customer data.
-
-`Python` `Federated Learning` `Privacy`
-
-</td>
-<td width="50%" valign="top">
-
-**[ClimaGuard AI](https://github.com/Yash151005/ClimaGuard-AI)**<br/>
-Hyperlocal disaster early-warning dashboard. Turns live climate data into a ward-level (~1 km²) flood, heatwave and landslide risk map with a 72-hour forecast.
-
-`Python` `Forecasting` `Geospatial` `Streamlit`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[FairNexa](https://github.com/Yash151005/FairNexa)**<br/>
-Automated fairness and explainability auditing. Point it at a model's API and it generates test data, measures bias across demographic groups and produces an explainable audit report.
-
-`Python` `Responsible AI` `XAI`
-
-</td>
-<td width="50%" valign="top">
-
-**[GenData-Insight](https://github.com/Yash151005/GenData-Insight)**<br/>
-Synthetic-data quality evaluator. Compares real and synthetic datasets with statistical tests (KS, JS divergence, Wasserstein), autoencoder checks, ML-utility scoring and privacy analysis.
-
-`Python` `Statistics` `Deep Learning`
-
-</td>
-</tr>
-</table>
-
-### 💻 Software Development & Computer Vision
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**[TerraVoxis](https://github.com/Yash151005/TerraVoxis)** · [**▶ live**](https://yash151005.github.io/TerraVoxis/)<br/>
-NASA Space Apps Challenge 2026 entry: an "Earth Information Jukebox" that turns Earth-observation data into sound so you can hear the data behind the picture.
-
-`TypeScript` `Data Sonification` `Accessibility`
-
-</td>
-<td width="50%" valign="top">
-
-**[KarigarTrust](https://github.com/Yash151005/KarigarTrust)**<br/>
-Agentic, two-sided gold ledger for jewellers and artisan goldsmiths. Tracks gold issued, returned and wasted, deadlines and settlement, with records verified by both parties.
-
-`Agentic AI` `Ledger` `Fintech`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[AutoFix AI](https://github.com/Yash151005/AutofixAI)**<br/>
-End-to-end pipeline that detects exterior vehicle damage with YOLO and estimates repair cost.
-
-`Python` `YOLO` `Computer Vision`
-
-</td>
-<td width="50%" valign="top">
-
-**[SentinelIQ](https://github.com/Yash151005/SentinelIQ)**<br/>
-Insider-threat and privileged-access monitoring built for Bank of Maharashtra (Finspark Hackathon 2026). Combines hybrid ML anomaly detection with a live risk dashboard.
-
-`Python` `Anomaly Detection` `Security`
-
-</td>
-</tr>
-</table>
-
-### 🧩 More builds
-
-<sub>Every project below is public on GitHub. 36 more, grouped by area.</sub>
-
-#### 🤖 AI & Agents
-
-<table>
-<tr>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/LifeOS">LifeOS</a></b><br/>
-<sub>AI action agent: plan → approve → execute → verify, backed by real SQLite tools.</sub><br/>
-<code>Python</code> <code>Agents</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/TestGenie-AI">TestGenie AI</a></b><br/>
-<sub>Generates QA test cases from requirements using several LLM providers.</sub><br/>
-<code>Python</code> <code>LLM</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/MandatePay-AI">MandatePay AI</a></b><br/>
-<sub>Agentic commerce with spending limits, human approval and a hash-chained audit log.</sub><br/>
-<code>Python</code> <code>Agentic AI</code>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/Dead-Reckoning">Dead Reckoning</a></b><br/>
-<sub>Infers full specs for undocumented industrial parts from physics and vision.</sub><br/>
-<code>Python</code> <code>Vision</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/KaamSetu">KaamSetu AI</a></b><br/>
-<sub>Multilingual, voice-first safety net for informal and migrant workers.</sub><br/>
-<code>JavaScript</code> <code>Voice AI</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/Nagrik-Sahayak">Nagrik Sahayak</a></b><br/>
-<sub>Multilingual GenAI civic companion for government services.</sub><br/>
-<code>Python</code> <code>GenAI</code>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/EngageAI">EngageAI</a></b><br/>
-<sub>Detects customer life events from transactions and sends personalized nudges.</sub><br/>
-<code>Python</code> <code>ML</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/SentinelAI">SentinelAI</a></b><br/>
-<sub>Grooming-risk detection and evidence correlation (Hac'KP 2026).</sub><br/>
-<code>Python</code> <code>NLP</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/DrugGpt">DrugGPT</a></b><br/>
-<sub>Explainable drug-repurposing engine with a full-stack React interface.</sub><br/>
-<code>Python</code> <code>React</code>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/PAAL">PAAL</a></b><br/>
-<sub>Public AI Access Layer: an AI intermediary between citizens and government services.</sub><br/>
-<code>AI Platform</code> <code>GovTech</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/ksp-ai">KSP Crime Intelligence</a></b><br/>
-<sub>Local conversational AI over a police crime database, powered by Ollama + Llama 3 (KSP Datathon 2026).</sub><br/>
-<code>Ollama</code> <code>Llama 3</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/dataforge-ai">DataForge AI</a></b><br/>
-<sub>AI data-preparation pipeline: raw data in, model-ready data out.</sub><br/>
-<code>Python</code> <code>Streamlit</code>
-</td>
-</tr>
-</table>
-
-#### 📊 Data Science & Analytics
-
-<table>
-<tr>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/MindMirror-AI">MindMirror AI</a></b><br/>
-<sub>Stress detection from face (OpenCV) and voice (librosa MFCC).</sub><br/>
-<code>OpenCV</code> <code>Audio ML</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/GraminPulse">GraminPulse</a></b><br/>
-<sub>Cash-flow forecasting and repayment-risk scoring for rural micro-enterprises.</sub><br/>
-<code>Python</code> <code>Forecasting</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/StockPulse-AI">StockPulse AI</a></b><br/>
-<sub>Snowflake-native stock-health intelligence for hospitals and NGOs.</sub><br/>
-<code>Snowflake</code> <code>Python</code>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/ksp-analytics">KSP Analytics</a></b><br/>
-<sub>Crime analytics with hotspot maps, network graphs and a local LLM.</sub><br/>
-<code>Python</code> <code>Geospatial</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/redrob-candidate-ranker">Redrob Candidate Ranker</a></b><br/>
-<sub>Ranks the top 100 candidates out of 100,000 for a role.</sub><br/>
-<code>Python</code> <code>Ranking</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/VeriESG">VeriESG</a></b><br/>
-<sub>ESG compliance checks with smart contracts and ML anomaly detection.</sub><br/>
-<code>Python</code> <code>Blockchain</code>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/Indradhanu">Indradhanu</a></b><br/>
-<sub>Climate-resilience platform linking health, marine and circular-economy data with LSTM forecasting.</sub><br/>
-<code>LSTM</code> <code>Climate</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/GreenChain">GreenChain</a></b><br/>
-<sub>Tracks fleet emissions against India's baseline, grades drivers and earns carbon credits.</sub><br/>
-<code>TypeScript</code> <code>Gemini</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/Real-Time-Route-Safety-Scoring-System-for-Pedestrians-or-Vehicles">SafeRoute.AI</a></b><br/>
-<sub>Real-time safety scoring and safer route suggestions for pedestrians and drivers.</sub><br/>
-<code>TypeScript</code> <code>Maps</code>
-</td>
-</tr>
-</table>
-
-#### 💻 Software, Web & Computer Vision
-
-<table>
-<tr>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/RailGuard">RailGuard</a></b><br/>
-<sub>Real-time railway anomaly detection with a rules + Llama 3 hybrid.</sub><br/>
-<code>Python</code> <code>Llama 3</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/VisionGuard-AI">VisionGuard AI</a></b><br/>
-<sub>Explainable OpenCV visual-inspection agent for images and video.</sub><br/>
-<code>Python</code> <code>OpenCV</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/Student-Attention-Detection">FocusGuard</a></b><br/>
-<sub>Flask + MediaPipe student attention monitoring from a webcam.</sub><br/>
-<code>Flask</code> <code>MediaPipe</code>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/FaceChain">FaceChain</a></b><br/>
-<sub>Face detection + reverse search, with an immutable on-chain record.</sub><br/>
-<code>Python</code> <code>Blockchain</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/NHAI">Offline Face Auth</a></b><br/>
-<sub>Offline facial recognition and liveness detection for field staff (NHAI hackathon).</sub><br/>
-<code>Kotlin</code> <code>On-device ML</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/smart-road-crack-detectction-web-app">Road Crack Detection</a></b><br/>
-<sub>Flask web app that detects and catalogues road cracks from uploaded images.</sub><br/>
-<code>Flask</code> <code>CV</code>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/PROVENANCEX">ProvenanceX</a></b><br/>
-<sub>Registers and verifies the source and edit history of photos, videos and files.</sub><br/>
-<code>JavaScript</code> <code>Provenance</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/RoadBid">RoadBid</a></b><br/>
-<sub>Transparent road-repair tenders: officers post, contractors bid, citizens verify.</sub><br/>
-<code>JavaScript</code> <code>Maps</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/Symptomline">Noted.</a></b><br/>
-<sub>Turns symptom logs into doctor-ready timelines and PDF reports.</sub><br/>
-<code>JavaScript</code> <code>Health</code>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/CareCircle">CareCircle</a></b><br/>
-<sub>Shared medication and appointment manager for elderly care.</sub><br/>
-<code>Python</code> <code>Health</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/SteadyStep">SteadyStep</a></b><br/>
-<sub>Adaptive, no-blame behavior-change coach.</sub><br/>
-<code>Python</code> <code>Wellness</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/CLIMASCOPE">CLIMASCOPE</a></b><br/>
-<sub>Checks whether the evidence actually supports a climate decision.</sub><br/>
-<code>TypeScript</code> <code>Climate</code>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/TeamSync">TeamSync</a></b><br/>
-<sub>Mobile-first teammate discovery and matching for hackathons.</sub><br/>
-<code>JavaScript</code> <code>Web</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/Freelance-bidding-platform">Freelance Bidding</a></b><br/>
-<sub>Freelance marketplace with a weighted auction algorithm for picking the best bid.</sub><br/>
-<code>JavaScript</code> <code>Algorithms</code>
-</td>
-<td width="33%" valign="top">
-<b><a href="https://github.com/Yash151005/ai-art-generator">AI Art Generator</a></b><br/>
-<sub>Text-to-image art generator supporting several diffusion models.</sub><br/>
-<code>TypeScript</code> <code>GenAI</code>
-</td>
-</tr>
-</table>
+<p align="center">
+<a href="https://github.com/Yash151005/RailGuard"><img width="32%" src="assets/cards/more-railguard.svg" alt="RailGuard: Real-time railway anomaly detection with a rules + Llama 3 hybrid."/></a>
+<a href="https://github.com/Yash151005/VisionGuard-AI"><img width="32%" src="assets/cards/more-visionguard.svg" alt="VisionGuard AI: Explainable OpenCV visual-inspection agent for images and video."/></a>
+<a href="https://github.com/Yash151005/Student-Attention-Detection"><img width="32%" src="assets/cards/more-focusguard.svg" alt="FocusGuard: Flask + MediaPipe student attention monitoring from a webcam."/></a>
+<br/>
+<a href="https://github.com/Yash151005/FaceChain"><img width="32%" src="assets/cards/more-facechain.svg" alt="FaceChain: Face detection + reverse search, with an immutable on-chain record."/></a>
+<a href="https://github.com/Yash151005/NHAI"><img width="32%" src="assets/cards/more-faceauth.svg" alt="Offline Face Auth: Offline face recognition and liveness detection for field staff (NHAI hackathon)."/></a>
+<a href="https://github.com/Yash151005/smart-road-crack-detectction-web-app"><img width="32%" src="assets/cards/more-roadcrack.svg" alt="Road Crack Detect: Flask web app that detects and catalogues road cracks from uploaded images."/></a>
+<br/>
+<a href="https://github.com/Yash151005/PROVENANCEX"><img width="32%" src="assets/cards/more-provenancex.svg" alt="ProvenanceX: Registers and verifies the source and edit history of photos, videos and files."/></a>
+<a href="https://github.com/Yash151005/RoadBid"><img width="32%" src="assets/cards/more-roadbid.svg" alt="RoadBid: Transparent road-repair tenders: officers post, contractors bid, citizens verify."/></a>
+<a href="https://github.com/Yash151005/Symptomline"><img width="32%" src="assets/cards/more-noted.svg" alt="Noted.: Turns symptom logs into doctor-ready timelines and PDF reports."/></a>
+<br/>
+<a href="https://github.com/Yash151005/CareCircle"><img width="32%" src="assets/cards/more-carecircle.svg" alt="CareCircle: Shared medication and appointment manager for elderly care."/></a>
+<a href="https://github.com/Yash151005/SteadyStep"><img width="32%" src="assets/cards/more-steadystep.svg" alt="SteadyStep: Adaptive, no-blame behavior-change coach."/></a>
+<a href="https://github.com/Yash151005/CLIMASCOPE"><img width="32%" src="assets/cards/more-climascope.svg" alt="CLIMASCOPE: Checks whether the evidence actually supports a climate decision."/></a>
+<br/>
+<a href="https://github.com/Yash151005/TeamSync"><img width="32%" src="assets/cards/more-teamsync.svg" alt="TeamSync: Mobile-first teammate discovery and matching for hackathons."/></a>
+<a href="https://github.com/Yash151005/Freelance-bidding-platform"><img width="32%" src="assets/cards/more-freelance.svg" alt="Freelance Bidding: Freelance marketplace with a weighted auction algorithm for picking the best bid."/></a>
+<a href="https://github.com/Yash151005/ai-art-generator"><img width="32%" src="assets/cards/more-artgen.svg" alt="AI Art Generator: Text-to-image art generator supporting several diffusion models."/></a>
+</p>
 
 <div align="center">
 
@@ -447,36 +200,17 @@ Insider-threat and privileged-access monitoring built for Bank of Maharashtra (F
 
 </div>
 
+</details>
+
 <img width="100%" src="assets/divider.svg" alt=""/>
 
 ## 📚 IEEE_PUBLICATIONS
 
-<sub>Peer-reviewed research published and indexed in IEEE Xplore.</sub>
+<img width="100%" src="assets/cards/strip-ieee.svg" alt="IEEE publications: peer-reviewed research indexed in IEEE Xplore"/>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<a href="https://ieeexplore.ieee.org/document/11735961"><img width="100%" src="assets/cards/paper-attention.svg" alt="IEEE Xplore paper: Student Attention Detection System. Real-Time Classroom Engagement Monitoring Using Computer Vision and Deep Learning."/></a>
 
-👁️ <img src="https://img.shields.io/badge/Published_in-IEEE_Xplore-00629B?style=flat-square&logo=ieee&logoColor=white" alt="Published in IEEE Xplore"/>
-
-**[Student Attention Detection System](https://ieeexplore.ieee.org/document/11735961)**<br/>
-Real-Time Classroom Engagement Monitoring Using Computer Vision and Deep Learning.
-
-[**Read on IEEE Xplore ↗**](https://ieeexplore.ieee.org/document/11735961)
-
-</td>
-<td width="50%" valign="top">
-
-🧠 <img src="https://img.shields.io/badge/Published_in-IEEE_Xplore-00629B?style=flat-square&logo=ieee&logoColor=white" alt="Published in IEEE Xplore"/>
-
-**[Brain Frequency Analysis Concentration Level Prediction](https://ieeexplore.ieee.org/document/11747711/)**<br/>
-A research study exploring brain-frequency signals for concentration-level prediction.
-
-[**Read on IEEE Xplore ↗**](https://ieeexplore.ieee.org/document/11747711/)
-
-</td>
-</tr>
-</table>
+<a href="https://ieeexplore.ieee.org/document/11747711/"><img width="100%" src="assets/cards/paper-brainwave.svg" alt="IEEE Xplore paper: Brain Frequency Analysis Concentration Level Prediction. A research study exploring brain-frequency signals for concentration-level prediction."/></a>
 
 <img width="100%" src="assets/divider.svg" alt=""/>
 
