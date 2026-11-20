@@ -78,7 +78,7 @@
       class="num" style="animation-delay:-2.5s">14</text>
 <text x="500" y="84" font-size="10.5" letter-spacing="2" fill="#8b9bc2">TOP LANGUAGES · BY REPOSITORY</text>
 <text x="500" y="112" font-size="12" fill="#e8eefc">Python</text>
-<text x="900" y="112" text-anchor="end" font-size="11.5" fill="#8b9bc2">35 repos · 56%</text>
+<text x="900" y="112" text-anchor="end" font-size="11.5" fill="#8b9bc2">36 repos · 57%</text>
 <rect x="500" y="119" width="400" height="6" rx="3" fill="#1d2b4f" opacity="0.6"/>
 <g style="transform-box:fill-box;transform-origin:left center"><rect class="bar" style="animation-delay:0.00s"
    x="500" y="119" width="400.0" height="6" rx="3" fill="#2dd4bf"/></g>
@@ -86,27 +86,27 @@
 <text x="900" y="150" text-anchor="end" font-size="11.5" fill="#8b9bc2">13 repos · 21%</text>
 <rect x="500" y="157" width="400" height="6" rx="3" fill="#1d2b4f" opacity="0.6"/>
 <g style="transform-box:fill-box;transform-origin:left center"><rect class="bar" style="animation-delay:0.12s"
-   x="500" y="157" width="148.6" height="6" rx="3" fill="#2dd4bf"/></g>
+   x="500" y="157" width="144.4" height="6" rx="3" fill="#2dd4bf"/></g>
 <text x="500" y="188" font-size="12" fill="#e8eefc">TypeScript</text>
 <text x="900" y="188" text-anchor="end" font-size="11.5" fill="#8b9bc2">7 repos · 11%</text>
 <rect x="500" y="195" width="400" height="6" rx="3" fill="#1d2b4f" opacity="0.6"/>
 <g style="transform-box:fill-box;transform-origin:left center"><rect class="bar" style="animation-delay:0.24s"
-   x="500" y="195" width="80.0" height="6" rx="3" fill="#2dd4bf"/></g>
+   x="500" y="195" width="77.8" height="6" rx="3" fill="#2dd4bf"/></g>
 <text x="500" y="226" font-size="12" fill="#e8eefc">HTML</text>
 <text x="900" y="226" text-anchor="end" font-size="11.5" fill="#8b9bc2">4 repos · 6%</text>
 <rect x="500" y="233" width="400" height="6" rx="3" fill="#1d2b4f" opacity="0.6"/>
 <g style="transform-box:fill-box;transform-origin:left center"><rect class="bar" style="animation-delay:0.36s"
-   x="500" y="233" width="45.7" height="6" rx="3" fill="#2dd4bf"/></g>
+   x="500" y="233" width="44.4" height="6" rx="3" fill="#2dd4bf"/></g>
 <text x="500" y="264" font-size="12" fill="#e8eefc">Jupyter Notebook</text>
 <text x="900" y="264" text-anchor="end" font-size="11.5" fill="#8b9bc2">2 repos · 3%</text>
 <rect x="500" y="271" width="400" height="6" rx="3" fill="#1d2b4f" opacity="0.6"/>
 <g style="transform-box:fill-box;transform-origin:left center"><rect class="bar" style="animation-delay:0.48s"
-   x="500" y="271" width="22.9" height="6" rx="3" fill="#2dd4bf"/></g>
+   x="500" y="271" width="22.2" height="6" rx="3" fill="#2dd4bf"/></g>
 <text x="500" y="302" font-size="12" fill="#e8eefc">Kotlin</text>
 <text x="900" y="302" text-anchor="end" font-size="11.5" fill="#8b9bc2">1 repo · 2%</text>
 <rect x="500" y="309" width="400" height="6" rx="3" fill="#1d2b4f" opacity="0.6"/>
 <g style="transform-box:fill-box;transform-origin:left center"><rect class="bar" style="animation-delay:0.60s"
-   x="500" y="309" width="11.4" height="6" rx="3" fill="#2dd4bf"/></g>
+   x="500" y="309" width="11.1" height="6" rx="3" fill="#2dd4bf"/></g>
 <text x="40" y="352" font-size="10.5" letter-spacing="2" fill="#8b9bc2">CONTRIBUTION PULSE · LAST 30 DAYS · 27 TOTAL</text>
 <line x1="40" y1="374" x2="900" y2="374" stroke="#1d2b4f" stroke-dasharray="2 5"/>
 <text x="900" y="370" text-anchor="end" font-size="9.5" fill="#4b5a80">8</text>
@@ -118,5 +118,5 @@
 <circle cx="425.5" cy="374.0" r="4.5" fill="#2dd4bf" stroke="#050a18" stroke-width="2"/><text x="433.5" y="368.0" text-anchor="start" font-size="10.5" fill="#e8eefc">peak 8 on 11-04</text>
 <text x="40" y="456" font-size="9.5" fill="#8b9bc2">2026-10-22</text>
 <text x="900" y="456" text-anchor="end" font-size="9.5" fill="#8b9bc2">2026-11-20</text>
-<text x="470.0" y="472" text-anchor="middle" font-size="9" letter-spacing="1.5" fill="#4b5a80">AUTO-RENDERED 2026-11-20 15:21 UTC · GITHUB ACTIONS</text>
+<text x="470.0" y="472" text-anchor="middle" font-size="9" letter-spacing="1.5" fill="#4b5a80">AUTO-RENDERED 2026-11-20 15:30 UTC · GITHUB ACTIONS</text>
 </svg>
