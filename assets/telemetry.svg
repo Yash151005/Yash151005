@@ -55,7 +55,7 @@
 <rect x="254" y="74" width="48" height="2.5" rx="1.2" fill="url(#edgeG)"/>
 <text x="256" y="99" font-size="10" letter-spacing="1.6" fill="#8b9bc2">CURRENT STREAK</text>
 <text x="256" y="134" font-family="'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="28" font-weight="700" fill="#e8eefc"
-      class="num" style="animation-delay:-0.5s">2 d</text>
+      class="num" style="animation-delay:-0.5s">0 d</text>
 <rect x="30" y="162" width="200" height="76" rx="10" fill="#0e1a35" stroke="#1d2b4f"/>
 <rect x="42" y="162" width="48" height="2.5" rx="1.2" fill="url(#edgeG)"/>
 <text x="44" y="187" font-size="10" letter-spacing="1.6" fill="#8b9bc2">LONGEST STREAK</text>
@@ -112,11 +112,11 @@
 <text x="900" y="370" text-anchor="end" font-size="9.5" fill="#4b5a80">8</text>
 <line x1="40" y1="440" x2="900" y2="440" stroke="#1d2b4f"/>
 <g clip-path="url(#reveal)">
-  <path d="M40.0 440.0 L69.7 440.0 L99.3 423.5 L129.0 440.0 L158.6 440.0 L188.3 440.0 L217.9 440.0 L247.6 440.0 L277.2 440.0 L306.9 440.0 L336.6 431.8 L366.2 440.0 L395.9 374.0 L425.5 440.0 L455.2 440.0 L484.8 440.0 L514.5 440.0 L544.1 440.0 L573.8 423.5 L603.4 440.0 L633.1 440.0 L662.8 423.5 L692.4 431.8 L722.1 423.5 L751.7 440.0 L781.4 431.8 L811.0 440.0 L840.7 431.8 L870.3 382.2 L900.0 440.0 L900.0 440 L40.0 440 Z" fill="url(#areaG)"/>
-  <path d="M40.0 440.0 L69.7 440.0 L99.3 423.5 L129.0 440.0 L158.6 440.0 L188.3 440.0 L217.9 440.0 L247.6 440.0 L277.2 440.0 L306.9 440.0 L336.6 431.8 L366.2 440.0 L395.9 374.0 L425.5 440.0 L455.2 440.0 L484.8 440.0 L514.5 440.0 L544.1 440.0 L573.8 423.5 L603.4 440.0 L633.1 440.0 L662.8 423.5 L692.4 431.8 L722.1 423.5 L751.7 440.0 L781.4 431.8 L811.0 440.0 L840.7 431.8 L870.3 382.2 L900.0 440.0" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M40.0 440.0 L69.7 423.5 L99.3 440.0 L129.0 440.0 L158.6 440.0 L188.3 440.0 L217.9 440.0 L247.6 440.0 L277.2 440.0 L306.9 431.8 L336.6 440.0 L366.2 374.0 L395.9 440.0 L425.5 440.0 L455.2 440.0 L484.8 440.0 L514.5 440.0 L544.1 423.5 L573.8 440.0 L603.4 440.0 L633.1 423.5 L662.8 431.8 L692.4 423.5 L722.1 440.0 L751.7 431.8 L781.4 440.0 L811.0 431.8 L840.7 382.2 L870.3 440.0 L900.0 440.0 L900.0 440 L40.0 440 Z" fill="url(#areaG)"/>
+  <path d="M40.0 440.0 L69.7 423.5 L99.3 440.0 L129.0 440.0 L158.6 440.0 L188.3 440.0 L217.9 440.0 L247.6 440.0 L277.2 440.0 L306.9 431.8 L336.6 440.0 L366.2 374.0 L395.9 440.0 L425.5 440.0 L455.2 440.0 L484.8 440.0 L514.5 440.0 L544.1 423.5 L573.8 440.0 L603.4 440.0 L633.1 423.5 L662.8 431.8 L692.4 423.5 L722.1 440.0 L751.7 431.8 L781.4 440.0 L811.0 431.8 L840.7 382.2 L870.3 440.0 L900.0 440.0" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-linejoin="round"/>
 </g>
-<circle cx="395.9" cy="374.0" r="4.5" fill="#2dd4bf" stroke="#050a18" stroke-width="2"/><text x="403.9" y="368.0" text-anchor="start" font-size="10.5" fill="#e8eefc">peak 8 on 11-04</text>
-<text x="40" y="456" font-size="9.5" fill="#8b9bc2">2026-10-23</text>
-<text x="900" y="456" text-anchor="end" font-size="9.5" fill="#8b9bc2">2026-11-21</text>
-<text x="470.0" y="472" text-anchor="middle" font-size="9" letter-spacing="1.5" fill="#4b5a80">AUTO-RENDERED 2026-11-21 19:25 UTC · GITHUB ACTIONS</text>
+<circle cx="366.2" cy="374.0" r="4.5" fill="#2dd4bf" stroke="#050a18" stroke-width="2"/><text x="374.2" y="368.0" text-anchor="start" font-size="10.5" fill="#e8eefc">peak 8 on 11-04</text>
+<text x="40" y="456" font-size="9.5" fill="#8b9bc2">2026-10-24</text>
+<text x="900" y="456" text-anchor="end" font-size="9.5" fill="#8b9bc2">2026-11-22</text>
+<text x="470.0" y="472" text-anchor="middle" font-size="9" letter-spacing="1.5" fill="#4b5a80">AUTO-RENDERED 2026-11-22 07:01 UTC · GITHUB ACTIONS</text>
 </svg>
